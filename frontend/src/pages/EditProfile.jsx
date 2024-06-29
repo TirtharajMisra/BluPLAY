@@ -44,7 +44,7 @@ function EditProfile() {
             <div className="inline-flex min-w-[145px] justify-end">
               <Link
                 to={`/channel/${channelInfo?.username}`}
-                className="px-4 py-1.5 text-sm text-white bg-[#ae7aff] rounded-md"
+                className="px-4 py-1.5 text-sm text-white bg-[#7f2eff] rounded-md"
               >
                 View Channel
               </Link>
@@ -59,7 +59,7 @@ function EditProfile() {
                 className={
                   ({ isActive }) =>
                     isActive
-                      ? "w-full border-b-2 border-[#ae7aff] bg-white px-3 py-1.5 text-[#ae7aff]" // Active link color
+                      ? "w-full border-b-2 border-[#7f2eff] bg-white px-3 py-1.5 text-[#7f2eff]" // Active link color
                       : "w-full border-b-2 border-transparent px-3 py-1.5 text-gray-400" // Inactive link color
                 }
               >

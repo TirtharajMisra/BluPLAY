@@ -125,7 +125,7 @@ function EditChannelInfo() {
             <button
               type="submit"
               disabled={isPending}
-              className="inline-block bg-[#ae7aff] px-3 py-1.5 text-black"
+              className="inline-block bg-[#7f2eff] px-3 py-1.5 text-black"
             >
               Save changes
             </button>

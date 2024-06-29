@@ -67,7 +67,7 @@ const Dropzone = forwardRef(({ type, setFile, file, isPending }, ref) => {
 
           <button
             type="button"
-            className="px-6 py-3 w-4/12 border-none bg-[#ae7aff] text-black hover:bg-[#d6beff]"
+            className="px-6 py-3 w-4/12 border-none bg-[#7f2eff] text-black hover:bg-[#d6beff]"
             onClick={() => setFile(null)}
             disabled={isPending}
           >
@@ -98,7 +98,7 @@ const Dropzone = forwardRef(({ type, setFile, file, isPending }, ref) => {
       )}
       <label
         onClick={open}
-        className="group/btn mt-4 inline-flex w-auto cursor-pointer items-center gap-x-2 bg-[#ae7aff] px-3 py-2 text-center font-bold text-black shadow-[5px_5px_0px_0px_#4f4e4e] transition-all duration-150 ease-in-out active:translate-x-[5px] active:translate-y-[5px] active:shadow-[0px_0px_0px_0px_#4f4e4e]"
+        className="group/btn mt-4 inline-flex w-auto cursor-pointer items-center gap-x-2 bg-[#7f2eff] px-3 py-2 text-center font-bold text-black shadow-[5px_5px_0px_0px_#4f4e4e] transition-all duration-150 ease-in-out active:translate-x-[5px] active:translate-y-[5px] active:shadow-[0px_0px_0px_0px_#4f4e4e]"
       >
         Select Files
       </label>

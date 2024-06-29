@@ -116,7 +116,7 @@ function VideoForm({
                 type="file"
                 accept="image/*"
                 disabled={isPending}
-                className="w-full border p-1 file:mr-4 file:border-none file:bg-[#ae7aff] file:px-3 file:py-1.5"
+                className="w-full border p-1 file:mr-4 file:border-none file:bg-[#7f2eff] file:px-3 file:py-1.5"
                 onChange={(e) => setThumbnail(e.target.files[0])}
               />
             </div>
@@ -146,7 +146,7 @@ function VideoForm({
         <div className="right-side h-full sm:w-4/12 p-4 w-full mb-[4rem]">
           <div className="flex flex-col w-full h-full gap-6">
             <h3 className="text-[1.2rem] text-white mx-auto font-extrabold">
-              Your Video will look something like this
+              video preview
             </h3>
             <VideoPreviewCard
               video={video}
@@ -164,7 +164,7 @@ function VideoForm({
               ) : (
                 <>
                   <p className="text-lg font-bold mb-2">
-                    Looks Great 🤩 right? Click here to Upload
+                     Click here to Upload
                   </p>
 
                   <SpButton

@@ -3,10 +3,10 @@ import React from "react";
 function Logo({ className, inline = false, mobile = false }) {
   return (
     <div
-      className={`font-extrabold text-xl flex items-center justify-center w-full ${className} text-purple-500`}
+      className={`font-extrabold text-xl flex items-center justify-center w-full ${className} text-blue-500`}
     >
       <img
-        src="/shadowplay-icon.jpeg"
+        src="/bluplay-icon.jpeg"
         alt="logo"
         className="w-10 h-10 inline-block mr-2"
       />
@@ -16,7 +16,7 @@ function Logo({ className, inline = false, mobile = false }) {
           mobile && "hidden md:block"
         }`}
       >
-        <div>Shadow</div>
+        <div>Blu</div>
         <div>Play</div>
       </div>
     </div>

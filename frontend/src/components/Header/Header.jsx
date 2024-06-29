@@ -83,9 +83,9 @@ function Header() {
           onClick={handleSideBar}
           className="cursor-pointer group peer ml-4 flex w-6 shrink-0 flex-wrap gap-y-1.5 sm:hidden"
         >
-          <span className="block h-[2px] w-full bg-white group-hover:bg-[#ae7aff]"></span>
-          <span className="block h-[2px] w-2/3 bg-white group-hover:bg-[#ae7aff]"></span>
-          <span className="block h-[2px] w-full bg-white group-hover:bg-[#ae7aff]"></span>
+          <span className="block h-[2px] w-full bg-white group-hover:bg-[#7f2eff]"></span>
+          <span className="block h-[2px] w-2/3 bg-white group-hover:bg-[#7f2eff]"></span>
+          <span className="block h-[2px] w-full bg-white group-hover:bg-[#7f2eff]"></span>
         </button>
         <div
           className={`fixed inset-y-0 right-0 flex w-full max-w-xs shrink-0 ${
@@ -106,7 +106,7 @@ function Header() {
                 <li key={index} className="w-full">
                   <Link
                     to={item.path}
-                    className="flex w-full items-center justify-start gap-x-4 border border-white px-4 py-1.5 text-left hover:bg-[#ae7aff] hover:text-black focus:border-[#ae7aff] focus:bg-[#ae7aff] focus:text-black"
+                    className="flex w-full items-center justify-start gap-x-4 border border-white px-4 py-1.5 text-left hover:bg-[#7f2eff] hover:text-black focus:border-[#7f2eff] focus:bg-[#7f2eff] focus:text-black"
                   >
                     <span className="inline-block w-full max-w-[20px] group-hover:mr-4 lg:mr-4">
                       {item.icon}

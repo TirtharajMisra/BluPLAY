@@ -116,7 +116,7 @@ function EditChangePassword() {
             >
               Reset
             </button>
-            <button className="inline-block bg-[#ae7aff] px-3 py-1.5 text-black">
+            <button className="inline-block bg-[#7f2eff] px-3 py-1.5 text-black">
               Update Password
             </button>
           </div>

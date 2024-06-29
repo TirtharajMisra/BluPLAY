@@ -47,13 +47,13 @@ function VideoStats() {
     <>
       <div className="relative ">
         <input
-          className="w-full peer border-2 border-gray-300 focus:border-[#ae7aff] bg-transparent py-2 pl-10 pr-4 rounded-md placeholder-gray-400 outline-none transition-all duration-300 focus:shadow-lg"
+          className="w-full peer border-2 border-gray-300 focus:border-[#7f2eff] bg-transparent py-2 pl-10 pr-4 rounded-md placeholder-gray-400 outline-none transition-all duration-300 focus:shadow-lg"
           placeholder="Search videos"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <MdSearch
-          className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 peer-focus:text-[#ae7aff]"
+          className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 peer-focus:text-[#7f2eff]"
           size={20}
         />
       </div>
@@ -82,7 +82,7 @@ function VideoStats() {
                           checked={video?.isPublished}
                           onChange={() => togglePublishStatus(video._id)}
                         />
-                        <span className="inline-block h-6 w-full rounded-2xl bg-gray-200 duration-200 after:absolute after:bottom-1 after:left-1 after:top-1 after:h-4 after:w-4 after:rounded-full after:bg-black after:duration-200 peer-checked:bg-[#ae7aff] peer-checked:after:left-7"></span>
+                        <span className="inline-block h-6 w-full rounded-2xl bg-gray-200 duration-200 after:absolute after:bottom-1 after:left-1 after:top-1 after:h-4 after:w-4 after:rounded-full after:bg-black after:duration-200 peer-checked:bg-[#7f2eff] peer-checked:after:left-7"></span>
                       </label>
                     </div>
                   </td>
@@ -134,12 +134,12 @@ function VideoStats() {
                     <div className="flex gap-4">
                       <button
                         onClick={() => handleEdit(video)}
-                        className="h-5 w-5 hover:text-[#ae7aff]"
+                        className="h-5 w-5 hover:text-[#7f2eff]"
                       >
                         <MdModeEditOutline className="w-6 h-6" />
                       </button>
                       <button
-                        className="h-5 w-5 hover:text-[#ae7aff]"
+                        className="h-5 w-5 hover:text-[#7f2eff]"
                         onClick={() => handleDelete(video._id)}
                       >
                         <MdDelete className="w-6 h-6" />
@@ -189,7 +189,7 @@ function VideoStats() {
                         checked={video?.isPublished}
                         onChange={() => togglePublishStatus(video._id)}
                       />
-                      <span className="inline-block h-6 w-full rounded-2xl bg-gray-200 duration-200 after:absolute after:bottom-1 after:left-1 after:top-1 after:h-4 after:w-4 after:rounded-full after:bg-black after:duration-200 peer-checked:bg-[#ae7aff] peer-checked:after:left-7"></span>
+                      <span className="inline-block h-6 w-full rounded-2xl bg-gray-200 duration-200 after:absolute after:bottom-1 after:left-1 after:top-1 after:h-4 after:w-4 after:rounded-full after:bg-black after:duration-200 peer-checked:bg-[#7f2eff] peer-checked:after:left-7"></span>
                     </label>
                   </div>
                   <div className="flex gap-3">
@@ -214,12 +214,12 @@ function VideoStats() {
                     <div className="flex   border-gray-700 gap-4">
                       <button
                         onClick={() => handleEdit(video)}
-                        className="h-5 w-5 hover:text-[#ae7aff]"
+                        className="h-5 w-5 hover:text-[#7f2eff]"
                       >
                         <MdModeEditOutline className="w-6 h-6" />
                       </button>
                       <button
-                        className="h-5 w-5 hover:text-[#ae7aff]"
+                        className="h-5 w-5 hover:text-[#7f2eff]"
                         onClick={() => handleDelete(video)}
                       >
                         <MdDelete className="w-6 h-6" />
